@@ -4,3 +4,4 @@ tox >= 2.4.1
 twine >= 1.8.0
 -e .[test,docs,docstest,pep8test]
 -e vectors
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
